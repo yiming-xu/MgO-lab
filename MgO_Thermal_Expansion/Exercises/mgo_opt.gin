@@ -1,0 +1,13 @@
+conp opti
+title
+ASE calculation
+end
+
+cell
+2.4749 2.4749 2.4749 60.0 60.0 60.0
+frac
+ Mg core 0.0  0.0  0.0
+ O  core 0.5  0.5  0.5
+
+library ionic.lib
+dump every 1 noover mgo_opt.grs
